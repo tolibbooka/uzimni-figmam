@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  padding: 25px 0 28px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-item li a {
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style-type: none;
+  font-size: 18px;
+  list-style: none;
+  font-weight: 400px;
+  line-height: 12px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+img {
+  height: 20px;
+  padding-left: 150px;
+  padding-right: 100px;
+}
+
+.btn {
+  padding: 5px 18px;
+  background: #000000;
+  border: 1px solid #000000;
+  /* margin-right: 90px; */
+  color: white;
+}
+
+.home {
+  background: url(../public/home.png);
+  width: 1440px;
+  height: 800px;
+}
+
+.home h1 {
+  padding-top: 215px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 67px;
+  text-align: center;
+  letter-spacing: 0.81px;
+  color: #FFFFFF;
+}
+
+.home p {
+  padding-top: 33px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.44px;
+  color: #FFFFFF;
+}
+
+.btn3 {
+  margin-top: 60px;
+  margin-left: 540px;
+  padding: 5px 48px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #d71717;
+  background: white;
+  border: 10px;
+}
+
+.btn4 {
+  margin-top: 60px;
+  margin-left: 20px;
+  padding: 5px 48px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #d71717;
+  background: white;
+  border: 10px;
+}
+
+.btn3:hover {
+  background: yellow;
+  color: violet;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn4:hover {
+  background: yellow;
+  color: violet;
+  transition: all 0.5s ease-in-out;
+}
+
+.bir {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  margin-bottom: 16px;
+}
+
+.card1 {
+  margin-top: 15px;
+  background: url(../public/card1.png);
+  width: 745px;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.card2 {
+  margin-top: 15px;
+  background: url(../public/card2.png);
+  width: 700px;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.card1 h1 {
+  margin-top: 310px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.card1 h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.card1 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.card2 h1 {
+  margin-top: 310px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.card2 h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.card2 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn5 {
+  margin-left: 220px;
+  margin-top: 28px;
+  border: none;
+  background: none;
+  color: white;
+}
+
+.btn6 {
+  margin-left: 125px;
+  margin-top: 28px;
+  border: none;
+  background: none;
+  color: white;
+}
+
+.ikki {
+  width: 1440px;
+  height: 800px;
+  background: rgb(0, 0, 0);
+}
+
+.ikki h1 {
+  padding-top: 66px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.ikki img {
+  padding: 100px;
+  margin-left: 430px;
+  margin-top: 32px;
+  width: 544px;
+  height: 466px;
+}
+
+.ikki p {
+  padding-bottom: 83px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.home2 h1 {
+  padding-top: 215px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 67px;
+  text-align: center;
+  letter-spacing: 0.81px;
+  color: #FFFFFF;
+}
+
+.home2 p {
+  padding-top: 33px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.44px;
+  color: #FFFFFF;
+}
+
+.home2 {
+  margin-top: 16px;
+  background: url(./components/img/uchinch.png);
+  width: 1440px;
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+.uchinchi {
+  background: url(./components/img/turinchisi.png);
+  width: 100%;
+  height: 430px;
+}
+
+.uchinchi h1 {
+  padding-top: 152px;
+  padding-left: 768px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 43px;
+  letter-spacing: 0.5px;
+  color: #1B1B1B;
+}
+
+.uchinchi p {
+  padding-top: 33px;
+  padding-left: 768px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #666666;
+}
+
+.btn7 {
+  margin-left: 768px;
+  margin-top: 13px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1B1B1B;
+  background: none;
+  border: none;
+}
+
+.futer {
+  display: flex;
+  padding-top: 96px;
+  padding-left: 238px;
+  gap: 59px;
+  height: 433px;
+  background: #000000;
+  border-radius: 0px;
+}
+
+.futer2 p {
+  margin-top: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  color: #7E7E7E;
+
+}
+
+.futer2 h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+input {
+  padding: 11px 81px 12px 20px;
+  background: #000000;
+  border-radius: 0px;
+}
+
+.inputlar button {
+  padding: 11px 18px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px;
+}
+.inputlar{
+  margin-top: 15px;
+}
+.futer2 h4{
+  margin-top: 42px;
+  color: #7E7E7E;
+  margin-left: 110px;
+}
